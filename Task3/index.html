@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+  </head>
+  <body>
+    
+    <form
+      id="form"
+      style="display: block; width: 800px; margin: 0 auto"
+      action=""
+    >
+      <label for="text">title</label>
+      <input type="text" name="" id="inputTitle" />
+      <label for="description">description</label>
+      <input type="description" name="" id="inputDescription" />
+      <button id="addCardButton">Add card</button>
+    </form>
+
+    <div class="todoList">
+      <div
+        id="todo"
+        style="width: 400px; padding: 0.5rem; border: 2px solid red"
+      ></div>
+    </div>
+    <div class="wrapper">
+    <div class="modal-wrapper">
+      <div class="modal">
+        <button class="roundButton" id="closeButton">X</button>
+        <input type="text" class="input1">
+        <input type="text" class="input2">
+        <button class="submitButton">Submit</button>
+      </div>
+    </div>
+  </div>
+    <script src="index.js"></script>
+  </body>
+</html>
