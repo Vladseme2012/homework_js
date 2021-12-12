@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.wrapper-user-information {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.wrapper-user-information .container {
+  width: 300px;
+  max-width: 100%;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
+.wrapper-user-information__personal-date {
+  width: 250px;
+  max-width: 100%;
+  padding: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  row-gap: 10px;
+  background-color: #bcec0f;
+  border: 1px solid #6f3aa1;
+  border-radius: 10px;
+}
+
+.wrapper-user-information .label {
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.wrapper-user-information .input {
+  outline: none;
+}
+
+.wrapper-user-information__button {
+  padding: 15px 0;
+  background-color: #1b418f;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  -webkit-transition: all 0.8 linear;
+  transition: all 0.8 linear;
+}
+
+.wrapper-user-information__button:hover {
+  cursor: pointer;
+  background-color: #3be83b80;
+  border: 1px solid #ffffff;
+}
+/*# sourceMappingURL=style.css.map */

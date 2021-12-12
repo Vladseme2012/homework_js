@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper-user-information {
+  width: 100%;
+  margin-top: 50px;
+
+  .container {
+    width: 300px;
+    max-width: 100%;
+    padding: 0 16px;
+    margin: 0 auto;
+  }
+
+  &__personal-date {
+    width: 250px;
+    max-width: 100%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 10px;
+    background-color: #bcec0f;
+    border: 1px solid #6f3aa1;
+    border-radius: 10px;
+  }
+
+  .label {
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+  .input {
+    outline: none;
+  }
+
+  &__button {
+    padding: 15px 0;
+    background-color: #1b418f;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    transition: all 0.8 linear;
+
+    &:hover {
+      cursor: pointer;
+      background-color: #3be83b80;
+      border: 1px solid #ffffff;
+    }
+  }
+}
