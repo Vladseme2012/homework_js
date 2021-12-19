@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <h1 class="wrapper__title">Сотрудники фирмы</h1>
+        <form action="" class="wrapper__form" id="form">
+          <input
+            type="text"
+            class="wrapper__input name"
+            name="name"
+            id="input-name"
+            placeholder="Имя:"
+          />
+          <input
+            type="text"
+            class="wrapper__input year"
+            name="year"
+            id="input-year"
+            placeholder="Год в цифрах"
+          />
+          <input
+            type="text"
+            class="wrapper__input date"
+            name="date"
+            id="input-date"
+            placeholder="input type date"
+          />
+          <input
+            type="text"
+            class="wrapper__input salary"
+            name="salary"
+            id="input-salary"
+            placeholder="$"
+          />
+          <button class="wrapper__btn" id="btn">Добавить сотрудника</button>
+        </form>
+        <p class="wrapper__subtitle" id="staff">Количество сотрудников:</p>
+        <p class="wrapper__subtitle" id="sum">Сумма $:</p>
+        <table class="wrapper__table" id="table">
+          <tr class="wrapper__table-tr" id="tr">
+            <th class="wrapper__table-th" id="check-box"></th>
+            <th class="wrapper__table-th" id="th-name">Имя</th>
+            <th class="wrapper__table-th" id="th-yearOfBirth">
+              <button id="btn-sort-year-top">
+              <img src="img/click_top.png" alt="btn"/>
+            </button>
+              Год рождения
+              <button id="btn-sort-year-bottom">
+                <img src="img/click_bottom.png" alt="btn"/>
+              </button>
+            </th>
+            <th class="wrapper__table-th" id="th-dateOfEmployment">
+              <button id="btn-sort-date-top">
+                <img src="img/click_top.png" alt="btn"/>
+              </button>
+              Дата приема на работу
+               <button id="btn-sort-date-bottom">
+                <img src="img/click_bottom.png" alt="btn"/>
+              </button>
+            </th>
+            <th class="wrapper__table-th" id="th-sum">$</th>
+          </tr>
+        </table>
+        <button class="wrapper__btn-dismiss" id="btn-dismiss">Уволить</button>
+        <button class="wrapper__btn-sum" id="btn-sum">Сумма$</button>
+      </div>
+    </div>
+    <script src="js/index.js"></script>
+  </body>
+</html>
