@@ -40,39 +40,39 @@
             id="input-salary"
             placeholder="$"
           />
-          <button class="wrapper__btn" id="btn">Добавить сотрудника</button>
+          <span class="wrapper__btn" id="btn">Добавить сотрудника</span>
         </form>
         <p class="wrapper__subtitle" id="staff">Количество сотрудников:</p>
         <p class="wrapper__subtitle" id="sum">Сумма $:</p>
         <table class="wrapper__table" id="table">
-          <tr class="wrapper__table-tr" id="tr">
-            <th class="wrapper__table-th" id="check-box"></th>
-            <th class="wrapper__table-th" id="th-name">Имя</th>
-            <th class="wrapper__table-th" id="th-yearOfBirth">
-              <button id="btn-sort-year-top">
-              <img src="img/click_top.png" alt="btn"/>
-            </button>
-              Год рождения
-              <button id="btn-sort-year-bottom">
-                <img src="img/click_bottom.png" alt="btn"/>
-              </button>
-            </th>
-            <th class="wrapper__table-th" id="th-dateOfEmployment">
-              <button id="btn-sort-date-top">
-                <img src="img/click_top.png" alt="btn"/>
-              </button>
-              Дата приема на работу
-               <button id="btn-sort-date-bottom">
-                <img src="img/click_bottom.png" alt="btn"/>
-              </button>
-            </th>
-            <th class="wrapper__table-th" id="th-sum">$</th>
-          </tr>
+          <thead>
+            <tr class="wrapper__table-tr" id="tr">
+              <th class="wrapper__table-th" id="check-box"></th>
+              <th class="wrapper__table-th" id="th-name">Имя</th>
+              <th class="wrapper__table-th" id="th-yearOfBirth">
+                <span id="btn-sort-year-top">Вверх</span>
+                Год рождения
+                <span id="btn-sort-year-bottom">Вниз</span>
+              </th>
+              <th class="wrapper__table-th" id="th-dateOfEmployment">
+               <span id="btn-sort-date-top">Вверх</span>
+               Дата приема на работу
+               <span id="btn-sort-date-bottom">Вниз</span>
+              </th>
+              <th class="wrapper__table-th" id="th-sum">$</th>
+            </tr>    
+          </thead>
+          <tbody>            
+          </tbody>     
         </table>
-        <button class="wrapper__btn-dismiss" id="btn-dismiss">Уволить</button>
-        <button class="wrapper__btn-sum" id="btn-sum">Сумма$</button>
+        <div class="wrapper__span-container">
+        <span class="wrapper__btn-sum" id="btn-dismiss">Уволить</span>
+        <span class="wrapper__btn-sum" id="btn-sum">Сумма</span>
       </div>
-    </div>
+    </div> 
     <script src="js/index.js"></script>
   </body>
 </html>
+
+
+
